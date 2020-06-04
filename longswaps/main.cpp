@@ -13,8 +13,10 @@ int main(int argc, char const *argv[])
     int k;
     cin >> s >> k;
 
+    /* if k <= n/2 output yes, otherwise middle characters can't move */
     if (k <= ceil(s.size()/2)) {
         cout << "Yes" << endl;
+    /* sort s and compare the middle chars with original s */
     } else {
         string original = s.substr(s.size()-k,2 * k - s.size());
         // cout << original << endl;
