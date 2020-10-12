@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(int argc, char const *argv[]) {
-    // ifstream cin("hardware/1.in");
+    ifstream cin("hardware/1.in");
 
     int n;
 

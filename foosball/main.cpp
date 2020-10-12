@@ -26,6 +26,7 @@ int main(int argc, char const *argv[])
     }
 
     cin >> score;
+
     unordered_map<int, pair<string,string>> dynasty;
     for (int i = 0; i < score.length(); i++) {
         if (score[i] == 'W') {
