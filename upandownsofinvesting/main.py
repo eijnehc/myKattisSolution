@@ -1,31 +1,36 @@
 d, n, m = map(int, input().split())
 
-peaks = 0
-valleys = 0
-price = []
+price = [-1]
 while (len(price) < d):
     price = price + list(map(int, input().split()))
 
-ups = 0
-downs = 0
-for x in range(0, d-1):
-    if (price[x] < price[x+1]):
-        ups += 1
-    if (ups == n and price[x+1] > price[x+2]):
-        print(x+2)
+peaks = 0
+valleys = 0
+
+for x in range(n, d-n+2):
+    valid = True
+    for y in range(x-n+1, x, +1):
+        if(price[y] > price[y+1]):
+            valid = False
+    for y in range(x+1, x+n, +1):
+        if (price[y] > price[y-1]):
+            valid = False
+    if (valid):
         peaks += 1
-        ups = 1
-        # for y in range(1,n):
-        #     if (price[x] > price[x+y]):
-        #         valid == False
 
-# print(peaks)
+for x in range(m, d-m+2):
+    valid = True
+    for y in range(x-m+1, x, +1):
+        if(price[y] < price[y+1]):
+            valid = False
+    for y in range(x+1, x+m, +1):
+        if (price[y] < price[y-1]):
+            valid = False
+    if (valid):
+        valleys += 1
 
-    # if (price[x] > price[x+1]):
-    #     downs += 1
-    # if (downs == m and price[x+1] > price[x]):
-    #     downs = 0
 
+print(peaks, valleys)
 
 
 
