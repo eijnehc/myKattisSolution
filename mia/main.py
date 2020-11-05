@@ -18,7 +18,7 @@ for line in sys.stdin:
         print("Tie.")
     elif(dice1 == 21):
         print("Player 1 wins.")
-    elif(dice2 == 21):s
+    elif(dice2 == 21):
         print("Player 2 wins.")
     elif(dice1%11 ==0):
         if (dice2%11==0):

@@ -1,0 +1,29 @@
+1
+<<hate<<<<loves[steva<en ] cs2040c< and also
+1
+loves[steva<en ] cs2040c< [and [also [cs2040c
+loves[steva<en ] cs2040c< [and [also ]cs2040c
+
+loves[steven [cs[2040 [and [also [cs2040c
+
+
+
+1
+<<hate<<<<loves[steva<en ] cs2040c< and also cs2040c
+
+
+1
+<<hate<<<<loves[steva<en ] cs2040c[]< and also cs2040c
+
+1
+<<hate<<<<loves[steva<en ] cs2040c[[[]]][][][][][[[[]]]]< and also cs2040c
+
+
+1
+<<hate<<<<loves[steva<en ] cs2040c[[[]]][][][][]<0[[[[]]]]< and also cs2040c
+
+1
+<<hate[<<<<]loves[steva<en ] cs2040c[[[]]][][][][]<0[[[[]]]]< and also cs2040c
+
+
+ab]c]<<
